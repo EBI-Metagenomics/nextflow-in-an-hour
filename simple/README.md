@@ -24,7 +24,7 @@ The files are stored in the `results` folder:
 
 - `proteins.faa`: Predicted protein sequences
 - `genes.gff`: Gene predictions in GFF format
-- `hmmscan.tblout`: Pfam domain annotations
+- `hits.txt`: Pfam domain annotations
 
 ## Usage
 

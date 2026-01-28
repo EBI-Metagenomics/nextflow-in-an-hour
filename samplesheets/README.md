@@ -35,11 +35,11 @@ sample2,input/fasta/sample2.fasta
 
 ## Output
 
-The files are stored in the `results` folder:
+The files are stored in the `results` organized in subfolders per `sample`:
 
 - `proteins.faa`: Predicted protein sequences
 - `genes.gff`: Gene predictions in GFF format
-- `hmmscan.tblout`: Pfam domain annotations
+- `hits.txt`: Pfam domain annotations
 
 ## Usage
 
