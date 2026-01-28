@@ -1,0 +1,3 @@
+sample,fasta_path
+sample1,../data/assembly.fasta.gz
+sample2,../data/assembly.fasta.gz
