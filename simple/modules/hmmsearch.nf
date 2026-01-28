@@ -1,4 +1,4 @@
-process HMMSCEARCH {
+process HMMSEARCH {
 
     container "quay.io/biocontainers/hmmer:3.4--hdbdd923_0"
     conda "bioconda::hmmer=3.4"

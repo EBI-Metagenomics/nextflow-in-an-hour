@@ -18,6 +18,6 @@ process HMMSEARCH {
 
     script:
     """
-    hmmsearch --noali --tblout ${meta.sample}.txt ${pfam_db} ${proteins}
+    hmmsearch --noali --tblout ${meta.sample}_hits.txt ${pfam_db} ${proteins}
     """
 }

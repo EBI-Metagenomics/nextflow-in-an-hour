@@ -1,5 +1,5 @@
 include { PYRODIGAL } from './modules/pyrodigal.nf'
-include { HMMSCEARCH } from './modules/hmmsearch.nf'
+include { HMMSEARCH } from './modules/hmmsearch.nf'
 
 workflow {
 
@@ -8,8 +8,8 @@ workflow {
         file(params.fasta)
     )
 
-    // Run HMMSCAN on predicted proteins
-    HMMSCEARCH(
+    // Run HMMSEARCH on predicted proteins
+    HMMSEARCH(
         PYRODIGAL.out.faa,
         file(params.pfam_db),
     )

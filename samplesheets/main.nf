@@ -19,7 +19,7 @@ workflow {
     // Run Pyrodigal for gene prediction
     PYRODIGAL(sample_channel)
 
-    // Run HMMSCAN on predicted proteins
+    // Run HMMSEARCH on predicted proteins
     HMMSEARCH(
         PYRODIGAL.out.faa,
         file(params.pfam_db),
